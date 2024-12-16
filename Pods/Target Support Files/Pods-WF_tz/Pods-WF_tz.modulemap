@@ -1,0 +1,6 @@
+framework module Pods_WF_tz {
+  umbrella header "Pods-WF_tz-umbrella.h"
+
+  export *
+  module * { export * }
+}
