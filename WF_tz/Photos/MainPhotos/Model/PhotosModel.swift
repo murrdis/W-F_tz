@@ -65,6 +65,7 @@ final class PhotosModel {
     
     func showRandomPhotos() {
         photos = randomPhotos
+        fetchedPhotoIDs.removeAll()
         fetchedPhotoIDs.formUnion(randomPhotos.map { $0.id })
     }
     
